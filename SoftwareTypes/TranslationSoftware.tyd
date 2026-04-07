@@ -1,0 +1,75 @@
+SoftwareType
+{
+    Name            "Translation"
+    Description     "Babel fish."
+    Random          0.3
+    Popularity      0.8
+    Retention       24
+    Iterative       0.9
+    NameGenerator   "TranslationSoftware"
+    IdealPrice      40
+    OptimalDevTime  30
+    SubmarketNames  [ "Accuracy"; "Speed"; "Neural" ]
+    Category        "Utility"
+    Unlock          1998
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "NLP"
+        Spec        System
+        Description "Language AI."
+        DevTime     7
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Text Translator"
+            Description "Type."
+            DevTime     3
+            CodeAmount  130
+            ArtAmount   15
+            CodeArt     0.9
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1998
+            }
+            {
+            Name        "Semantic Thought"
+            Description "Pre-speech."
+            DevTime     7
+            CodeAmount  480
+            ArtAmount   50
+            CodeArt     0.91
+            Level       3
+            Submarkets  [ 1; 1; 1 ]
+            Unlock      2035
+            }
+        ]
+        }
+        {
+        Name        "Speech"
+        Spec        Audio
+        Optional    True
+        Description "Audio translation."
+        DevTime     5
+        CodeArt     0.8
+        Submarkets  [ 1; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Voice Translator"
+            Description "Listen."
+            DevTime     7
+            CodeAmount  190
+            ArtAmount   20
+            CodeArt     0.9
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2010
+            }
+        ]
+        }
+    ]
+}

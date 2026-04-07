@@ -1,0 +1,75 @@
+SoftwareType
+{
+    Name            "Remote Desktop"
+    Description     "Control PC."
+    Random          0.3
+    Popularity      0.7
+    Retention       36
+    Iterative       1
+    NameGenerator   "RemoteDesktop"
+    IdealPrice      100
+    OptimalDevTime  30
+    SubmarketNames  [ "Latency"; "Control"; "Immersion" ]
+    Category        "Utility"
+    Unlock          1998
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Packet Relay"
+        Spec        Network
+        Description "Screen/Input."
+        DevTime     6
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Screen Capture"
+            Description "Base."
+            DevTime     3
+            CodeAmount  150
+            ArtAmount   10
+            CodeArt     0.94
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1998
+            }
+        ]
+        }
+        {
+        Name        "Immersion"
+        Spec        3D
+        Optional    True
+        Description "Virtual Presence."
+        DevTime     7
+        CodeArt     0.2
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Low Latency VR"
+            Description "Headset."
+            DevTime     7
+            CodeAmount  290
+            ArtAmount   60
+            CodeArt     0.83
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2026
+            }
+            {
+            Name        "Hologram Telepresence"
+            Description "Avatar."
+            DevTime     7
+            CodeAmount  420
+            ArtAmount   100
+            CodeArt     0.81
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2034
+            }
+        ]
+        }
+    ]
+}

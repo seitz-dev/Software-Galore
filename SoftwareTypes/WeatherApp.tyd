@@ -1,0 +1,75 @@
+SoftwareType
+{
+    Name            "Weather"
+    Description     "Forecasts."
+    Random          0.3
+    Popularity      0.8
+    Retention       24
+    Iterative       0.8
+    NameGenerator   "WeatherApp"
+    IdealPrice      50
+    OptimalDevTime  20
+    SubmarketNames  [ "Accuracy"; "Local"; "Innovation" ]
+    Category        "Utility"
+    Unlock          1999
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "API Relay"
+        Spec        Network
+        Description "Data link."
+        DevTime     4
+        CodeArt     1
+        Submarkets  [ 1; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Current Conditions"
+            Description "Basic."
+            DevTime     3
+            CodeAmount  90
+            ArtAmount   30
+            CodeArt     0.75
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1999
+            }
+            {
+            Name        "Drone Climate Data"
+            Description "Micro."
+            DevTime     7
+            CodeAmount  280
+            ArtAmount   40
+            CodeArt     0.88
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2025
+            }
+        ]
+        }
+        {
+        Name        "Simulation"
+        Spec        System
+        Optional    True
+        Description "Modeling AI."
+        DevTime     6
+        CodeArt     1
+        Submarkets  [ 1; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Global Weather Mod"
+            Description "Seeding."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   50
+            CodeArt     0.9
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2035
+            }
+        ]
+        }
+    ]
+}

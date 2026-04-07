@@ -1,0 +1,108 @@
+SoftwareType
+{
+    Name            "IDE"
+    Description     "Developer tools."
+    Random          0.3
+    Popularity      0.6
+    Retention       60
+    Iterative       1
+    NameGenerator   "IDE"
+    IdealPrice      200
+    OptimalDevTime  40
+    SubmarketNames  [ "Productivity"; "Speed"; "Advanced" ]
+    Category        "Work"
+    Unlock          1980
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Code Engine"
+        Spec        System
+        Description "Compilers and logic."
+        DevTime     8
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Code Editor"
+            Description "Text engine."
+            DevTime     3
+            CodeAmount  100
+            ArtAmount   10
+            CodeArt     0.91
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1980
+            }
+            {
+            Name        "Compiler Integration"
+            Description "Builds."
+            DevTime     5
+            CodeAmount  140
+            ArtAmount   5
+            CodeArt     0.97
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1980
+            }
+            {
+            Name        "Debugger"
+            Description "Step through."
+            DevTime     7
+            CodeAmount  200
+            ArtAmount   20
+            CodeArt     0.91
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      1990
+            }
+            {
+            Name        "AI Copilot"
+            Description "Generative."
+            DevTime     7
+            CodeAmount  350
+            ArtAmount   20
+            CodeArt     0.95
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2021
+            }
+            {
+            Name        "Quantum Compiler"
+            Description "Qbits."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   20
+            CodeArt     0.96
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2032
+            }
+        ]
+        }
+        {
+        Name        "UI/UX"
+        Spec        2D
+        Optional    True
+        Description "Syntax visuals."
+        DevTime     4
+        CodeArt     0.5
+        Submarkets  [ 0; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Syntax Highlighting"
+            Description "Colors."
+            DevTime     3
+            CodeAmount  80
+            ArtAmount   20
+            CodeArt     0.8
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1985
+            }
+        ]
+        }
+    ]
+}

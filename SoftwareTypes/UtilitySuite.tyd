@@ -1,0 +1,130 @@
+SoftwareType
+{
+    Name            "Utility Suite"
+    Description     "PC optimization."
+    Random          0.3
+    Popularity      0.8
+    Retention       12
+    Iterative       1
+    IdealPrice      50
+    OptimalDevTime  20
+    SubmarketNames  [ "Optimization"; "Recovery"; "UI" ]
+    Category        "Utility"
+    Unlock          1985
+    OSSupport       True
+    NameGenerator   "UtilitySuite"
+    Features
+    [
+        {
+        Name        "System Tools"
+        Spec        System
+        Description "Disk access."
+        DevTime     5
+        CodeArt     1
+        Submarkets  [ 1; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Disk Defragmenter"
+            Description "Sort blocks."
+            DevTime     5
+            CodeAmount  140
+            ArtAmount   10
+            CodeArt     0.93
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1985
+            }
+            {
+            Name        "File Undelete"
+            Description "Recovery."
+            DevTime     5
+            CodeAmount  160
+            ArtAmount   10
+            CodeArt     0.94
+            Level       2
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1988
+            }
+            {
+            Name        "Memory Optimizer"
+            Description "Free RAM."
+            DevTime     5
+            CodeAmount  120
+            ArtAmount   5
+            CodeArt     0.96
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1992
+            }
+            {
+            Name        "Registry Cleaner"
+            Description "Fix OS."
+            DevTime     5
+            CodeAmount  150
+            ArtAmount   10
+            CodeArt     0.94
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1995
+            }
+            {
+            Name        "Predictive Tuning"
+            Description "AI tune."
+            DevTime     7
+            CodeAmount  280
+            ArtAmount   20
+            CodeArt     0.93
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2022
+            }
+            {
+            Name        "Quantum Bit Repair"
+            Description "Entanglement."
+            DevTime     7
+            CodeAmount  400
+            ArtAmount   30
+            CodeArt     0.93
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2034
+            }
+        ]
+        }
+        {
+        Name        "Dashboards"
+        Spec        2D
+        Optional    True
+        Description "Visual metrics."
+        DevTime     4
+        CodeArt     0.5
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Visual Disk Map"
+            Description "Block UI."
+            DevTime     5
+            CodeAmount  100
+            ArtAmount   40
+            CodeArt     0.71
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      1990
+            }
+            {
+            Name        "1-Click Optimizer"
+            Description "Big button."
+            DevTime     3
+            CodeAmount  80
+            ArtAmount   50
+            CodeArt     0.62
+            Level       1
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2005
+            }
+        ]
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+SoftwareType
+{
+    Name            "Instant Messenger"
+    Description     "Real-time chat."
+    Random          0.3
+    Popularity      0.95
+    Retention       12
+    Iterative       0.9
+    NameGenerator   "InstantMessenger"
+    IdealPrice      50
+    OptimalDevTime  20
+    SubmarketNames  [ "Social"; "Speed"; "Features" ]
+    Category        "Internet"
+    Unlock          1996
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Messaging"
+        Spec        Network
+        Description "Data transfer."
+        DevTime     4
+        CodeArt     1
+        Submarkets  [ 1; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Direct Messaging"
+            Description "1-to-1."
+            DevTime     3
+            CodeAmount  90
+            ArtAmount   20
+            CodeArt     0.82
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1996
+            }
+            {
+            Name        "Group Chat"
+            Description "Rooms."
+            DevTime     5
+            CodeAmount  130
+            ArtAmount   20
+            CodeArt     0.87
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      1998
+            }
+            {
+            Name        "E2E Encryption"
+            Description "Privacy."
+            DevTime     7
+            CodeAmount  180
+            ArtAmount   5
+            CodeArt     0.97
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2014
+            }
+        ]
+        }
+        {
+        Name        "Interaction"
+        Spec        System
+        Optional    True
+        Description "UI and logic."
+        DevTime     4
+        CodeArt     0.9
+        Submarkets  [ 0; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Buddy List"
+            Description "Presence."
+            DevTime     3
+            CodeAmount  70
+            ArtAmount   25
+            CodeArt     0.74
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1996
+            }
+            {
+            Name        "Real-time Translation"
+            Description "Live AI."
+            DevTime     7
+            CodeAmount  280
+            ArtAmount   15
+            CodeArt     0.95
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2022
+            }
+        ]
+        }
+        {
+        Name        "VOIP"
+        Spec        Audio
+        Optional    True
+        Description "Voice calls."
+        DevTime     3
+        CodeArt     0.8
+        Submarkets  [ 1; 0; 0 ]
+        Features
+        [
+            {
+            Name        "Voice Call"
+            Description "Audio chat."
+            DevTime     5
+            CodeAmount  160
+            ArtAmount   10
+            CodeArt     0.94
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2003
+            }
+        ]
+        }
+        {
+        Name        "Video"
+        Spec        2D
+        Optional    True
+        Description "Video calls."
+        DevTime     4
+        CodeArt     0.5
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Video Call"
+            Description "Webcam."
+            DevTime     7
+            CodeAmount  200
+            ArtAmount   30
+            CodeArt     0.87
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2006
+            }
+        ]
+        }
+        {
+        Name        "Volumetric"
+        Spec        3D
+        Optional    True
+        Description "AR chat."
+        DevTime     5
+        CodeArt     0.1
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Volumetric Chat"
+            Description "Holograms."
+            DevTime     7
+            CodeAmount  400
+            ArtAmount   100
+            CodeArt     0.8
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2034
+            }
+        ]
+        }
+    ]
+}

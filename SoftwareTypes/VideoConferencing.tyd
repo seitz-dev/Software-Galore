@@ -1,0 +1,166 @@
+SoftwareType
+{
+    Name            "Video Conferencing"
+    Description     "Digital meetings."
+    Random          0.3
+    Popularity      0.8
+    Retention       24
+    Iterative       0.9
+    NameGenerator   "VideoConferencing"
+    IdealPrice      100
+    OptimalDevTime  30
+    SubmarketNames  [ "Stability"; "Social"; "Enterprise" ]
+    Category        "Internet"
+    Unlock          2003
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Relay"
+        Spec        Network
+        Description "Server infrastructure."
+        DevTime     6
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Group Servers"
+            Description "Multi-stream."
+            DevTime     3
+            CodeAmount  200
+            ArtAmount   10
+            CodeArt     0.95
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2003
+            }
+            {
+            Name        "Breakout Rooms"
+            Description "Split rooms."
+            DevTime     5
+            CodeAmount  160
+            ArtAmount   20
+            CodeArt     0.89
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2012
+            }
+        ]
+        }
+        {
+        Name        "Canvas"
+        Spec        2D
+        Optional    True
+        Description "Video rendering."
+        DevTime     5
+        CodeArt     0.4
+        Submarkets  [ 0; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Screen Sharing"
+            Description "Broadcast."
+            DevTime     5
+            CodeAmount  140
+            ArtAmount   15
+            CodeArt     0.9
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2005
+            }
+            {
+            Name        "Virtual Backgrounds"
+            Description "AI mask."
+            DevTime     7
+            CodeAmount  220
+            ArtAmount   30
+            CodeArt     0.88
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2016
+            }
+        ]
+        }
+        {
+        Name        "Meeting Audio"
+        Spec        Audio
+        Optional    True
+        Description "Voice processing."
+        DevTime     4
+        CodeArt     0.8
+        Submarkets  [ 1; 0; 0 ]
+        Features
+        [
+            {
+            Name        "Live Captions"
+            Description "AI Text."
+            DevTime     7
+            CodeAmount  240
+            ArtAmount   10
+            CodeArt     0.96
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2019
+            }
+            {
+            Name        "Spatial Audio"
+            Description "Directional."
+            DevTime     7
+            CodeAmount  200
+            ArtAmount   10
+            CodeArt     0.95
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2022
+            }
+        ]
+        }
+        {
+        Name        "Metaverse"
+        Spec        3D
+        Optional    True
+        Description "Virtual rooms."
+        DevTime     6
+        CodeArt     0.2
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "VR Meeting Rooms"
+            Description "Avatars."
+            DevTime     7
+            CodeAmount  350
+            ArtAmount   80
+            CodeArt     0.81
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2026
+            }
+        ]
+        }
+        {
+        Name        "Neural"
+        Spec        System
+        Optional    True
+        Description "Presence."
+        DevTime     8
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Full Dive Presence"
+            Description "Neural sensory."
+            DevTime     7
+            CodeAmount  500
+            ArtAmount   80
+            CodeArt     0.86
+            Level       3
+            Submarkets  [ 1; 1; 1 ]
+            Unlock      2035
+            }
+        ]
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+SoftwareType
+{
+    Name            "Web Browser"
+    Description     "Access the world wide web."
+    Random          0.3
+    Popularity      0.9
+    Retention       24
+    Iterative       0.8
+    NameGenerator   "WebBrowser"
+    IdealPrice      50
+    OptimalDevTime  20
+    SubmarketNames  [ "Performance"; "Usability"; "Features" ]
+    Category        "Internet"
+    Unlock          1990
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Networking"
+        Spec        Network
+        Description "Core web protocols."
+        DevTime     5
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "HTML Engine"
+            Description "Display basic web pages."
+            DevTime     3
+            CodeAmount  120
+            ArtAmount   10
+            CodeArt     0.92
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1990
+            }
+            {
+            Name        "CSS Styling"
+            Description "Support page styling."
+            DevTime     3
+            CodeAmount  80
+            ArtAmount   40
+            CodeArt     0.67
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1994
+            }
+            {
+            Name        "Native Ad Blocker"
+            Description "Block malicious ads."
+            DevTime     5
+            CodeAmount  120
+            ArtAmount   15
+            CodeArt     0.89
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2012
+            }
+            {
+            Name        "Native Crypto Wallet"
+            Description "Web3 integration."
+            DevTime     7
+            CodeAmount  250
+            ArtAmount   20
+            CodeArt     0.93
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2021
+            }
+        ]
+        }
+        {
+        Name        "Engine"
+        Spec        System
+        Optional    True
+        Description "Execution and logic."
+        DevTime     5
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "JS Engine"
+            Description "Execute scripts."
+            DevTime     5
+            CodeAmount  200
+            ArtAmount   5
+            CodeArt     0.98
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1995
+            }
+            {
+            Name        "Bookmarks & History"
+            Description "Save favorite sites."
+            DevTime     3
+            CodeAmount  60
+            ArtAmount   15
+            CodeArt     0.8
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1990
+            }
+            {
+            Name        "Tabbed Browsing"
+            Description "Multiple sites in one window."
+            DevTime     3
+            CodeAmount  90
+            ArtAmount   20
+            CodeArt     0.82
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2001
+            }
+            {
+            Name        "Private Browsing"
+            Description "Incognito mode."
+            DevTime     5
+            CodeAmount  110
+            ArtAmount   10
+            CodeArt     0.92
+            Level       2
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2005
+            }
+            {
+            Name        "Extensions API"
+            Description "Community add-ons."
+            DevTime     5
+            CodeAmount  150
+            ArtAmount   15
+            CodeArt     0.91
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2006
+            }
+            {
+            Name        "Hardware Acceleration"
+            Description "GPU rendering."
+            DevTime     5
+            CodeAmount  180
+            ArtAmount   10
+            CodeArt     0.95
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2010
+            }
+            {
+            Name        "AI Page Summarizer"
+            Description "Instantly summarize long articles."
+            DevTime     7
+            CodeAmount  300
+            ArtAmount   10
+            CodeArt     0.97
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2025
+            }
+            {
+            Name        "Neural Link Browsing"
+            Description "Direct brain rendering."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   50
+            CodeArt     0.9
+            Level       3
+            Submarkets  [ 1; 1; 1 ]
+            Unlock      2033
+            }
+        ]
+        }
+        {
+        Name        "Graphics"
+        Spec        3D
+        Optional    True
+        Description "Advanced rendering."
+        DevTime     3
+        CodeArt     0.5
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "WebGL"
+            Description "3D graphics in browser."
+            DevTime     7
+            CodeAmount  200
+            ArtAmount   50
+            CodeArt     0.8
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2011
+            }
+        ]
+        }
+    ]
+}

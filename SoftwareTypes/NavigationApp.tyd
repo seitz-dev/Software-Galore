@@ -1,0 +1,109 @@
+SoftwareType
+{
+    Name            "Navigation"
+    Description     "GPS mapping."
+    Random          0.3
+    Popularity      0.9
+    Retention       24
+    Iterative       0.8
+    NameGenerator   "NavigationApp"
+    IdealPrice      50
+    OptimalDevTime  30
+    SubmarketNames  [ "Accuracy"; "Visuals"; "Advanced" ]
+    Category        "Utility"
+    Unlock          2005
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Cartography"
+        Spec        2D
+        Description "Map drawing."
+        DevTime     6
+        CodeArt     0.4
+        Submarkets  [ 0; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Map Rendering"
+            Description "Tiles."
+            DevTime     3
+            CodeAmount  140
+            ArtAmount   50
+            CodeArt     0.74
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2005
+            }
+            {
+            Name        "AR Directions"
+            Description "Overlays."
+            DevTime     7
+            CodeAmount  260
+            ArtAmount   60
+            CodeArt     0.81
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2021
+            }
+        ]
+        }
+        {
+        Name        "Routing"
+        Spec        System
+        Optional    True
+        Description "Pathfinding."
+        DevTime     6
+        CodeArt     1
+        Submarkets  [ 1; 0; 0 ]
+        Features
+        [
+            {
+            Name        "Routing Engine"
+            Description "A to B."
+            DevTime     5
+            CodeAmount  180
+            ArtAmount   10
+            CodeArt     0.95
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2005
+            }
+            {
+            Name        "Autonomous Fleet"
+            Description "Global AI."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   40
+            CodeArt     0.92
+            Level       3
+            Submarkets  [ 1; 1; 1 ]
+            Unlock      2032
+            }
+        ]
+        }
+        {
+        Name        "Spatial"
+        Spec        3D
+        Optional    True
+        Description "3D view."
+        DevTime     5
+        CodeArt     0.1
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Street View"
+            Description "Panoramas."
+            DevTime     7
+            CodeAmount  220
+            ArtAmount   80
+            CodeArt     0.73
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2012
+            }
+        ]
+        }
+    ]
+}

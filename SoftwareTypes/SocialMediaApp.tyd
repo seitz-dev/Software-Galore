@@ -1,0 +1,75 @@
+SoftwareType
+{
+    Name            "Social Media"
+    Description     "Global net."
+    Random          0.3
+    Popularity      0.98
+    Retention       6
+    Iterative       0.95
+    NameGenerator   "SocialMediaApp"
+    IdealPrice      50
+    OptimalDevTime  25
+    SubmarketNames  [ "Addiction"; "Virality"; "Presence" ]
+    Category        "Internet"
+    Unlock          2003
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Feed Engine"
+        Spec        System
+        Description "Algorithm."
+        DevTime     6
+        CodeArt     1
+        Submarkets  [ 1; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Algorithmic Feed"
+            Description "Infinite scroll."
+            DevTime     5
+            CodeAmount  190
+            ArtAmount   20
+            CodeArt     0.9
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2003
+            }
+            {
+            Name        "Neural Emotion"
+            Description "Feelings."
+            DevTime     7
+            CodeAmount  500
+            ArtAmount   70
+            CodeArt     0.88
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2035
+            }
+        ]
+        }
+        {
+        Name        "Digital World"
+        Spec        3D
+        Optional    True
+        Description "Metaverse."
+        DevTime     7
+        CodeArt     0.1
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Metaverse Hub"
+            Description "VR spaces."
+            DevTime     7
+            CodeAmount  380
+            ArtAmount   160
+            CodeArt     0.7
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2027
+            }
+        ]
+        }
+    ]
+}

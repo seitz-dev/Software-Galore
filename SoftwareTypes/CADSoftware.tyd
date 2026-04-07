@@ -1,0 +1,164 @@
+SoftwareType
+{
+    Name            "CAD Software"
+    Description     "Computer-Aided Design."
+    Random          0.3
+    Popularity      0.6
+    Retention       48
+    Iterative       1
+    IdealPrice      400
+    OptimalDevTime  45
+    SubmarketNames  [ "Precision"; "Features"; "Rendering" ]
+    Category        "Work"
+    Unlock          1982
+    OSSupport       True
+    NameGenerator   "CADSoftware"
+    Features
+    [
+        {
+        Name        "Drafting"
+        Spec        2D
+        Description "2D vectors."
+        DevTime     6
+        CodeArt     0.4
+        Submarkets  [ 1; 1; 0 ]
+        Features
+        [
+            {
+            Name        "2D Drafting"
+            Description "Lines."
+            DevTime     3
+            CodeAmount  140
+            ArtAmount   60
+            CodeArt     0.7
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1982
+            }
+            {
+            Name        "Layer Management"
+            Description "Stacks."
+            DevTime     3
+            CodeAmount  90
+            ArtAmount   30
+            CodeArt     0.75
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1985
+            }
+            {
+            Name        "Vector Snap"
+            Description "Grids."
+            DevTime     5
+            CodeAmount  120
+            ArtAmount   20
+            CodeArt     0.86
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1988
+            }
+        ]
+        }
+        {
+        Name        "Modeling"
+        Spec        3D
+        Optional    True
+        Description "3D space."
+        DevTime     8
+        CodeArt     0.2
+        Submarkets  [ 0; 1; 1 ]
+        Features
+        [
+            {
+            Name        "3D Wireframe"
+            Description "Meshes."
+            DevTime     5
+            CodeAmount  200
+            ArtAmount   80
+            CodeArt     0.71
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      1990
+            }
+            {
+            Name        "Solid Modeling"
+            Description "Volumes."
+            DevTime     7
+            CodeAmount  250
+            ArtAmount   100
+            CodeArt     0.71
+            Level       3
+            Submarkets  [ 1; 0; 1 ]
+            Unlock      1995
+            }
+            {
+            Name        "Photo Rendering"
+            Description "Raytrace."
+            DevTime     7
+            CodeAmount  300
+            ArtAmount   150
+            CodeArt     0.67
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2005
+            }
+            {
+            Name        "VR Walkthrough"
+            Description "Headset."
+            DevTime     7
+            CodeAmount  350
+            ArtAmount   120
+            CodeArt     0.74
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2016
+            }
+            {
+            Name        "Holo Print Prep"
+            Description "Volumetric."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   160
+            CodeArt     0.74
+            Level       3
+            Submarkets  [ 1; 0; 1 ]
+            Unlock      2030
+            }
+        ]
+        }
+        {
+        Name        "Simulation"
+        Spec        System
+        Optional    True
+        Description "Physics."
+        DevTime     7
+        CodeArt     1
+        Submarkets  [ 1; 0; 0 ]
+        Features
+        [
+            {
+            Name        "Physics Sim"
+            Description "Stress test."
+            DevTime     7
+            CodeAmount  280
+            ArtAmount   20
+            CodeArt     0.93
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1998
+            }
+            {
+            Name        "Generative Design"
+            Description "AI shapes."
+            DevTime     7
+            CodeAmount  400
+            ArtAmount   40
+            CodeArt     0.91
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2025
+            }
+        ]
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+SoftwareType
+{
+    Name            "Email Client"
+    Description     "Manage electronic mail."
+    Random          0.3
+    Popularity      0.85
+    Retention       24
+    Iterative       1
+    IdealPrice      40
+    OptimalDevTime  25
+    SubmarketNames  [ "Speed"; "Reliability"; "Security" ]
+    Category        "Internet"
+    Unlock          1985
+    OSSupport       True
+    NameGenerator   "EmailClient"
+    Features
+    [
+        {
+        Name        "Mail Management"
+        Spec        System
+        Description "Organizing mail."
+        DevTime     4
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Address Book"
+            Description "Contacts."
+            DevTime     3
+            CodeAmount  60
+            ArtAmount   15
+            CodeArt     0.8
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1985
+            }
+            {
+            Name        "Spam Filter"
+            Description "Anti-junk."
+            DevTime     5
+            CodeAmount  120
+            ArtAmount   5
+            CodeArt     0.96
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1996
+            }
+            {
+            Name        "Smart Reply AI"
+            Description "Auto-replies."
+            DevTime     7
+            CodeAmount  240
+            ArtAmount   10
+            CodeArt     0.96
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2018
+            }
+        ]
+        }
+        {
+        Name        "Mail Protocols"
+        Spec        Network
+        Optional    True
+        Description "SMTP/POP3."
+        DevTime     4
+        CodeArt     1
+        Submarkets  [ 1; 1; 0 ]
+        Features
+        [
+            {
+            Name        "IMAP Support"
+            Description "Server sync."
+            DevTime     5
+            CodeAmount  120
+            ArtAmount   5
+            CodeArt     0.96
+            Level       2
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1994
+            }
+            {
+            Name        "AI Phishing Protection"
+            Description "Anti-scam."
+            DevTime     7
+            CodeAmount  280
+            ArtAmount   15
+            CodeArt     0.95
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2024
+            }
+        ]
+        }
+        {
+        Name        "Holograms"
+        Spec        3D
+        Optional    True
+        Description "3D messages."
+        DevTime     3
+        CodeArt     0.1
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Holographic Messages"
+            Description "3D recordings."
+            DevTime     7
+            CodeAmount  350
+            ArtAmount   90
+            CodeArt     0.8
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2030
+            }
+        ]
+        }
+    ]
+}

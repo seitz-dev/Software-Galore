@@ -1,0 +1,153 @@
+SoftwareType
+{
+    Name            "Video Editor"
+    Description     "Non-linear video editing."
+    Random          0.3
+    Popularity      0.8
+    Retention       36
+    Iterative       0.7
+    NameGenerator   "VideoEditor"
+    IdealPrice      150
+    OptimalDevTime  35
+    SubmarketNames  [ "Stability"; "Performance"; "Features" ]
+    Category        "Multimedia"
+    Unlock          1995
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Core"
+        Spec        System
+        Description "Video processing."
+        DevTime     6
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Timeline Interface"
+            Description "Drag video tracks."
+            DevTime     3
+            CodeAmount  150
+            ArtAmount   30
+            CodeArt     0.83
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1995
+            }
+            {
+            Name        "Multicam Editing"
+            Description "Sync angles."
+            DevTime     5
+            CodeAmount  180
+            ArtAmount   10
+            CodeArt     0.95
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2006
+            }
+            {
+            Name        "Hardware Encoding"
+            Description "GPU speed."
+            DevTime     5
+            CodeAmount  200
+            ArtAmount   5
+            CodeArt     0.98
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2010
+            }
+            {
+            Name        "Holographic Spatial Edit"
+            Description "VR scene editing."
+            DevTime     7
+            CodeAmount  400
+            ArtAmount   120
+            CodeArt     0.77
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2031
+            }
+        ]
+        }
+        {
+        Name        "Visuals"
+        Spec        2D
+        Optional    True
+        Description "Effects."
+        DevTime     4
+        CodeArt     0.2
+        Submarkets  [ 0; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Basic Transitions"
+            Description "Fades."
+            DevTime     3
+            CodeAmount  80
+            ArtAmount   40
+            CodeArt     0.67
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1995
+            }
+            {
+            Name        "Color Grading"
+            Description "LUTs."
+            DevTime     5
+            CodeAmount  140
+            ArtAmount   20
+            CodeArt     0.88
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      1998
+            }
+            {
+            Name        "AI Deepfake Gen"
+            Description "Facial replacement."
+            DevTime     7
+            CodeAmount  350
+            ArtAmount   100
+            CodeArt     0.78
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2026
+            }
+        ]
+        }
+        {
+        Name        "Sound"
+        Spec        Audio
+        Optional    True
+        Description "Audio manipulation."
+        DevTime     3
+        CodeArt     0.8
+        Submarkets  [ 0; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Audio Mixer"
+            Description "Levels."
+            DevTime     5
+            CodeAmount  120
+            ArtAmount   15
+            CodeArt     0.89
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1995
+            }
+            {
+            Name        "AI Auto-Captioning"
+            Description "Subtitles."
+            DevTime     7
+            CodeAmount  250
+            ArtAmount   10
+            CodeArt     0.96
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2020
+            }
+        ]
+        }
+    ]
+}

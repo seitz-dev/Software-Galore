@@ -1,0 +1,164 @@
+SoftwareType
+{
+    Name            "Database System"
+    Description     "Enterprise data management."
+    Random          0.3
+    Popularity      0.7
+    Retention       60
+    Iterative       1
+    IdealPrice      350
+    OptimalDevTime  40
+    SubmarketNames  [ "Speed"; "Reliability"; "Scale" ]
+    Category        "Work"
+    Unlock          1980
+    OSSupport       True
+    NameGenerator   "DatabaseSystem"
+    Features
+    [
+        {
+        Name        "Core Engine"
+        Spec        System
+        Description "Storage logic."
+        DevTime     8
+        CodeArt     1
+        Submarkets  [ 1; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Relational Engine"
+            Description "Tables."
+            DevTime     3
+            CodeAmount  150
+            ArtAmount   10
+            CodeArt     0.94
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1980
+            }
+            {
+            Name        "SQL Support"
+            Description "Query lang."
+            DevTime     5
+            CodeAmount  180
+            ArtAmount   5
+            CodeArt     0.97
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1984
+            }
+            {
+            Name        "ACID Compliance"
+            Description "Data safety."
+            DevTime     7
+            CodeAmount  250
+            ArtAmount   10
+            CodeArt     0.96
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1988
+            }
+            {
+            Name        "In-Memory DB"
+            Description "RAM cache."
+            DevTime     7
+            CodeAmount  220
+            ArtAmount   5
+            CodeArt     0.98
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2000
+            }
+            {
+            Name        "AI Query Optimizer"
+            Description "Self-tuning."
+            DevTime     7
+            CodeAmount  350
+            ArtAmount   20
+            CodeArt     0.95
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2020
+            }
+        ]
+        }
+        {
+        Name        "Connectivity"
+        Spec        Network
+        Optional    True
+        Description "Access."
+        DevTime     6
+        CodeArt     1
+        Submarkets  [ 0; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Client-Server Arc"
+            Description "Remote access."
+            DevTime     5
+            CodeAmount  160
+            ArtAmount   15
+            CodeArt     0.91
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      1985
+            }
+            {
+            Name        "Data Replication"
+            Description "Backups."
+            DevTime     5
+            CodeAmount  200
+            ArtAmount   10
+            CodeArt     0.95
+            Level       2
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1995
+            }
+            {
+            Name        "Distributed Nodes"
+            Description "Sharding."
+            DevTime     7
+            CodeAmount  300
+            ArtAmount   20
+            CodeArt     0.94
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2005
+            }
+            {
+            Name        "Quantum DB Sync"
+            Description "Zero lag."
+            DevTime     7
+            CodeAmount  500
+            ArtAmount   30
+            CodeArt     0.94
+            Level       3
+            Submarkets  [ 1; 0; 1 ]
+            Unlock      2032
+            }
+        ]
+        }
+        {
+        Name        "Admin Tools"
+        Spec        2D
+        Optional    True
+        Description "GUI."
+        DevTime     4
+        CodeArt     0.5
+        Submarkets  [ 0; 1; 0 ]
+        Features
+        [
+            {
+            Name        "GUI Admin Tool"
+            Description "Visuals."
+            DevTime     5
+            CodeAmount  120
+            ArtAmount   40
+            CodeArt     0.75
+            Level       2
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1992
+            }
+        ]
+        }
+    ]
+}

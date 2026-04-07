@@ -1,0 +1,86 @@
+SoftwareType
+{
+    Name            "Personal Finance"
+    Description     "Budgeting."
+    Random          0.3
+    Popularity      0.75
+    Retention       36
+    Iterative       1
+    NameGenerator   "PersonalFinance"
+    IdealPrice      60
+    OptimalDevTime  30
+    SubmarketNames  [ "Savings"; "Security"; "AI" ]
+    Category        "Work"
+    Unlock          1990
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Ledger"
+        Spec        System
+        Description "Database."
+        DevTime     5
+        CodeArt     1
+        Submarkets  [ 1; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Digital Ledger"
+            Description "Manual."
+            DevTime     3
+            CodeAmount  110
+            ArtAmount   15
+            CodeArt     0.88
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1990
+            }
+            {
+            Name        "Tax Calculator"
+            Description "Estimates."
+            DevTime     5
+            CodeAmount  140
+            ArtAmount   10
+            CodeArt     0.93
+            Level       2
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1995
+            }
+            {
+            Name        "AI Wealth advisor"
+            Description "Robo."
+            DevTime     7
+            CodeAmount  280
+            ArtAmount   25
+            CodeArt     0.92
+            Level       3
+            Submarkets  [ 1; 1; 1 ]
+            Unlock      2024
+            }
+        ]
+        }
+        {
+        Name        "Fintech"
+        Spec        Network
+        Optional    True
+        Description "APIs."
+        DevTime     4
+        CodeArt     1
+        Submarkets  [ 1; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Bank Sync"
+            Description "Auto."
+            DevTime     7
+            CodeAmount  180
+            ArtAmount   10
+            CodeArt     0.95
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1998
+            }
+        ]
+        }
+    ]
+}

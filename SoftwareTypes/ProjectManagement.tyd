@@ -1,0 +1,97 @@
+SoftwareType
+{
+    Name            "Project Management"
+    Description     "Organize teams."
+    Random          0.3
+    Popularity      0.7
+    Retention       48
+    Iterative       1
+    NameGenerator   "ProjectManagement"
+    IdealPrice      150
+    OptimalDevTime  35
+    SubmarketNames  [ "Efficiency"; "Organization"; "Enterprise" ]
+    Category        "Work"
+    Unlock          1995
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Workflow"
+        Spec        System
+        Description "Logic engine."
+        DevTime     7
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Task Assignment"
+            Description "Tickets."
+            DevTime     3
+            CodeAmount  120
+            ArtAmount   20
+            CodeArt     0.86
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1995
+            }
+            {
+            Name        "Predictive Bottlenecks"
+            Description "AI Forecast."
+            DevTime     7
+            CodeAmount  280
+            ArtAmount   20
+            CodeArt     0.93
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2024
+            }
+            {
+            Name        "Neural Task Sync"
+            Description "Direct memory."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   40
+            CodeArt     0.92
+            Level       3
+            Submarkets  [ 1; 1; 1 ]
+            Unlock      2034
+            }
+        ]
+        }
+        {
+        Name        "Visualization"
+        Spec        2D
+        Optional    True
+        Description "Charts."
+        DevTime     5
+        CodeArt     0.5
+        Submarkets  [ 0; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Gantt Charts"
+            Description "Timelines."
+            DevTime     5
+            CodeAmount  150
+            ArtAmount   40
+            CodeArt     0.79
+            Level       2
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2003
+            }
+            {
+            Name        "Kanban Boards"
+            Description "Agile."
+            DevTime     5
+            CodeAmount  130
+            ArtAmount   30
+            CodeArt     0.81
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2008
+            }
+        ]
+        }
+    ]
+}

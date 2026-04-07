@@ -1,0 +1,75 @@
+SoftwareType
+{
+    Name            "DJ Software"
+    Description     "Live mixing."
+    Random          0.3
+    Popularity      0.7
+    Retention       36
+    Iterative       1
+    NameGenerator   "DJSoftware"
+    IdealPrice      250
+    OptimalDevTime  35
+    SubmarketNames  [ "Latency"; "Ease"; "Performance" ]
+    Category        "Multimedia"
+    Unlock          1998
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Decks"
+        Spec        Audio
+        Description "Audio engine."
+        DevTime     6
+        CodeArt     0.5
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Virtual Decks"
+            Description "Mixer."
+            DevTime     3
+            CodeAmount  130
+            ArtAmount   40
+            CodeArt     0.76
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1998
+            }
+            {
+            Name        "AI Stem Isolation"
+            Description "Karaoke."
+            DevTime     7
+            CodeAmount  280
+            ArtAmount   15
+            CodeArt     0.95
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2023
+            }
+        ]
+        }
+        {
+        Name        "Stage Visuals"
+        Spec        3D
+        Optional    True
+        Description "Holograms."
+        DevTime     5
+        CodeArt     0.1
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Holographic Concert"
+            Description "Laser AI."
+            DevTime     7
+            CodeAmount  420
+            ArtAmount   150
+            CodeArt     0.74
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2034
+            }
+        ]
+        }
+    ]
+}

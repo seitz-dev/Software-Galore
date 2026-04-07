@@ -1,0 +1,86 @@
+SoftwareType
+{
+    Name            "Ride Sharing"
+    Description     "Hailing apps."
+    Random          0.3
+    Popularity      0.9
+    Retention       12
+    Iterative       0.8
+    NameGenerator   "RideSharing"
+    IdealPrice      50
+    OptimalDevTime  25
+    SubmarketNames  [ "Speed"; "Reliability"; "Cost" ]
+    Category        "Utility"
+    Unlock          2010
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Dispatch"
+        Spec        Network
+        Description "Matching."
+        DevTime     5
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "GPS Matching"
+            Description "Find drivers."
+            DevTime     3
+            CodeAmount  160
+            ArtAmount   20
+            CodeArt     0.89
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2010
+            }
+            {
+            Name        "Drone Taxi Routing"
+            Description "Airspace."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   50
+            CodeArt     0.9
+            Level       3
+            Submarkets  [ 1; 1; 1 ]
+            Unlock      2033
+            }
+        ]
+        }
+        {
+        Name        "Economics"
+        Spec        System
+        Optional    True
+        Description "Pricing."
+        DevTime     4
+        CodeArt     1
+        Submarkets  [ 0; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Fare Engine"
+            Description "Surge."
+            DevTime     5
+            CodeAmount  130
+            ArtAmount   10
+            CodeArt     0.93
+            Level       2
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2010
+            }
+            {
+            Name        "Autonomous Taxi API"
+            Description "Robots."
+            DevTime     7
+            CodeAmount  300
+            ArtAmount   30
+            CodeArt     0.91
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2026
+            }
+        ]
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+SoftwareType
+{
+    Name            "Fitness Tracker"
+    Description     "Health logging."
+    Random          0.3
+    Popularity      0.8
+    Retention       24
+    Iterative       0.9
+    NameGenerator   "FitnessTracker"
+    IdealPrice      50
+    OptimalDevTime  25
+    SubmarketNames  [ "Health"; "UI"; "Social" ]
+    Category        "Utility"
+    Unlock          2010
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Biometrics"
+        Spec        System
+        Description "Sensors."
+        DevTime     6
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Pedometer Sync"
+            Description "Steps."
+            DevTime     3
+            CodeAmount  100
+            ArtAmount   20
+            CodeArt     0.83
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2010
+            }
+            {
+            Name        "SpO2 & ECG Sync"
+            Description "Medical."
+            DevTime     7
+            CodeAmount  200
+            ArtAmount   15
+            CodeArt     0.93
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2020
+            }
+            {
+            Name        "Nanobot Analysis"
+            Description "Blood AI."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   50
+            CodeArt     0.9
+            Level       3
+            Submarkets  [ 1; 1; 1 ]
+            Unlock      2035
+            }
+        ]
+        }
+        {
+        Name        "Syncing"
+        Spec        Network
+        Optional    True
+        Description "Device link."
+        DevTime     4
+        CodeArt     1
+        Submarkets  [ 0; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Social Challenges"
+            Description "Friends."
+            DevTime     7
+            CodeAmount  160
+            ArtAmount   20
+            CodeArt     0.89
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2016
+            }
+        ]
+        }
+    ]
+}

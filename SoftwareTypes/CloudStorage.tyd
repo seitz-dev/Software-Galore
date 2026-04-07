@@ -1,0 +1,108 @@
+SoftwareType
+{
+    Name            "Cloud Storage"
+    Description     "Remote file vault."
+    Random          0.3
+    Popularity      0.9
+    Retention       48
+    Iterative       1
+    NameGenerator   "CloudStorage"
+    IdealPrice      30
+    OptimalDevTime  25
+    SubmarketNames  [ "Speed"; "Security"; "Capacity" ]
+    Category        "Utility"
+    Unlock          2000
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Transfer"
+        Spec        Network
+        Description "Sync tech."
+        DevTime     5
+        CodeArt     1
+        Submarkets  [ 1; 0; 0 ]
+        Features
+        [
+            {
+            Name        "File Syncing"
+            Description "Upload."
+            DevTime     3
+            CodeAmount  140
+            ArtAmount   15
+            CodeArt     0.9
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2000
+            }
+            {
+            Name        "Block-level Sync"
+            Description "Byte delta."
+            DevTime     7
+            CodeAmount  220
+            ArtAmount   5
+            CodeArt     0.98
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2012
+            }
+            {
+            Name        "Decentralized Nodes"
+            Description "P2P."
+            DevTime     7
+            CodeAmount  320
+            ArtAmount   20
+            CodeArt     0.94
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2026
+            }
+        ]
+        }
+        {
+        Name        "Vault"
+        Spec        System
+        Optional    True
+        Description "Data integrity."
+        DevTime     5
+        CodeArt     1
+        Submarkets  [ 0; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Version History"
+            Description "Restore."
+            DevTime     5
+            CodeAmount  160
+            ArtAmount   5
+            CodeArt     0.97
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2005
+            }
+            {
+            Name        "E2E Encryption"
+            Description "Privacy."
+            DevTime     7
+            CodeAmount  240
+            ArtAmount   5
+            CodeArt     0.98
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2016
+            }
+            {
+            Name        "Quantum Data Vault"
+            Description "Physics lock."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   15
+            CodeArt     0.97
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2033
+            }
+        ]
+        }
+    ]
+}

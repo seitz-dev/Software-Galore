@@ -1,0 +1,384 @@
+Software
+{
+    WebBrowser
+    [
+        "Web Browser"
+        "Access the world wide web."
+    ]
+    VideoEditor
+    [
+        "Video Editor"
+        "Non-linear video editing."
+    ]
+    EmailClient
+    [
+        "Email Client"
+        "Manage electronic mail."
+    ]
+    InstantMessenger
+    [
+        "Instant Messenger"
+        "Real-time chat."
+    ]
+    IDE
+    [
+        "IDE"
+        "Developer tools."
+    ]
+    VideoConferencing
+    [
+        "Video Conferencing"
+        "Digital meetings."
+    ]
+    CloudStorage
+    [
+        "Cloud Storage"
+        "Remote file vault."
+    ]
+    NavigationApp
+    [
+        "Navigation"
+        "GPS mapping."
+    ]
+    StreamingApp
+    [
+        "Streaming Service"
+        "Watch anything."
+    ]
+    MusicStreaming
+    [
+        "Music Streaming"
+        "Endless audio."
+    ]
+    RideSharing
+    [
+        "Ride Sharing"
+        "Hailing apps."
+    ]
+    ProjectManagement
+    [
+        "Project Management"
+        "Organize teams."
+    ]
+    FitnessTracker
+    [
+        "Fitness Tracker"
+        "Health logging."
+    ]
+    PersonalFinance
+    [
+        "Personal Finance"
+        "Budgeting."
+    ]
+    TranslationSoftware
+    [
+        "Translation"
+        "Babel fish."
+    ]
+    NoteTaking
+    [
+        "Note Taking"
+        "Digital brain."
+    ]
+    VPNSoftware
+    [
+        "VPN"
+        "Secure tunnel."
+    ]
+    ECommerceApp
+    [
+        "E-Commerce"
+        "Shopping."
+    ]
+    SocialMediaApp
+    [
+        "Social Media"
+        "Global net."
+    ]
+    DJSoftware
+    [
+        "DJ Software"
+        "Live mixing."
+    ]
+    WeatherApp
+    [
+        "Weather"
+        "Forecasts."
+    ]
+    DatingApp
+    [
+        "Dating"
+        "Romance."
+    ]
+    PasswordManager
+    [
+        "Password Manager"
+        "Vault."
+    ]
+    RemoteDesktop
+    [
+        "Remote Desktop"
+        "Control PC."
+    ]
+    POSSoftware
+    [
+        "POS"
+        "Registers."
+    ]
+
+    DatabaseSystem
+    [
+        "Database System"
+        "Enterprise data management."
+    ]
+    RelationalEngine
+    [
+        "Relational Engine"
+        "Tables."
+    ]
+    SQLSupport
+    [
+        "SQL Support"
+        "Query lang."
+    ]
+    ACIDCompliance
+    [
+        "ACID Compliance"
+        "Data safety."
+    ]
+    InMemoryDB
+    [
+        "In-Memory DB"
+        "RAM cache."
+    ]
+    AIQueryOptimizer
+    [
+        "AI Query Optimizer"
+        "Self-tuning."
+    ]
+    ClientServerArc
+    [
+        "Client-Server Arc"
+        "Remote access."
+    ]
+    DataReplication
+    [
+        "Data Replication"
+        "Backups."
+    ]
+    DistributedNodes
+    [
+        "Distributed Nodes"
+        "Sharding."
+    ]
+    QuantumDBSync
+    [
+        "Quantum DB Sync"
+        "Zero lag."
+    ]
+    GUIAdminTool
+    [
+        "GUI Admin Tool"
+        "Visuals."
+    ]
+    CADSoftware
+    [
+        "CAD Software"
+        "Computer-Aided Design."
+    ]
+    2DDrafting
+    [
+        "2D Drafting"
+        "Lines."
+    ]
+    LayerManagement
+    [
+        "Layer Management"
+        "Stacks."
+    ]
+    VectorSnap
+    [
+        "Vector Snap"
+        "Grids."
+    ]
+    3DWireframe
+    [
+        "3D Wireframe"
+        "Meshes."
+    ]
+    SolidModeling
+    [
+        "Solid Modeling"
+        "Volumes."
+    ]
+    PhotoRendering
+    [
+        "Photo Rendering"
+        "Raytrace."
+    ]
+    VRWalkthrough
+    [
+        "VR Walkthrough"
+        "Headset."
+    ]
+    HoloPrintPrep
+    [
+        "Holo Print Prep"
+        "Volumetric."
+    ]
+    PhysicsSim
+    [
+        "Physics Sim"
+        "Stress test."
+    ]
+    GenerativeDesign
+    [
+        "Generative Design"
+        "AI shapes."
+    ]
+    TerminalEmulator
+    [
+        "Terminal Emulator"
+        "Mainframe access."
+    ]
+    SerialConnection
+    [
+        "Serial Connection"
+        "COM ports."
+    ]
+    TelnetProtocol
+    [
+        "Telnet Protocol"
+        "TCP/IP."
+    ]
+    SSHEncryption
+    [
+        "SSH Encryption"
+        "Secure."
+    ]
+    IPv6Support
+    [
+        "IPv6 Support"
+        "Next-gen IP."
+    ]
+    MacroScripting
+    [
+        "Macro Scripting"
+        "Auto typing."
+    ]
+    MultiSession
+    [
+        "Multi-Session"
+        "Concurrent."
+    ]
+    ANSIColors
+    [
+        "ANSI Colors"
+        "16 colors."
+    ]
+    TabbedInterface
+    [
+        "Tabbed Interface"
+        "Tabs."
+    ]
+    NeuromancerUI
+    [
+        "Neuromancer UI"
+        "VR terminal."
+    ]
+    UtilitySuite
+    [
+        "Utility Suite"
+        "PC optimization."
+    ]
+    DiskDefragmenter
+    [
+        "Disk Defragmenter"
+        "Sort blocks."
+    ]
+    FileUndelete
+    [
+        "File Undelete"
+        "Recovery."
+    ]
+    MemoryOptimizer
+    [
+        "Memory Optimizer"
+        "Free RAM."
+    ]
+    RegistryCleaner
+    [
+        "Registry Cleaner"
+        "Fix OS."
+    ]
+    PredictiveTuning
+    [
+        "Predictive Tuning"
+        "AI tune."
+    ]
+    QuantumBitRepair
+    [
+        "Quantum Bit Repair"
+        "Entanglement."
+    ]
+    VisualDiskMap
+    [
+        "Visual Disk Map"
+        "Block UI."
+    ]
+    1ClickOptimizer
+    [
+        "1-Click Optimizer"
+        "Big button."
+    ]
+    Archiver
+    [
+        "Archiver"
+        "File compression."
+    ]
+    LZ77Compression
+    [
+        "LZ77 Compression"
+        "ZIP base."
+    ]
+    SelfExtracting
+    [
+        "Self-Extracting"
+        "SFX."
+    ]
+    MultiVolume
+    [
+        "Multi-Volume"
+        "Split files."
+    ]
+    AES256Encrypt
+    [
+        "AES-256 Encrypt"
+        "Secure."
+    ]
+    AICompression
+    [
+        "AI Compression"
+        "Pattern AI."
+    ]
+    SpaceTimeFold
+    [
+        "Space-Time Fold"
+        "Quantum zip."
+    ]
+    DragDrop
+    [
+        "Drag & Drop"
+        "Easy move."
+    ]
+    ArchivePreview
+    [
+        "Archive Preview"
+        "Peek inside."
+    ]
+    CloudExtract
+    [
+        "Cloud Extract"
+        "Unzip to web."
+    ]
+}

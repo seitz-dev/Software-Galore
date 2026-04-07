@@ -1,0 +1,153 @@
+SoftwareType
+{
+    Name            "Archiver"
+    Description     "File compression."
+    Random          0.3
+    Popularity      0.85
+    Retention       24
+    Iterative       0.9
+    IdealPrice      30
+    OptimalDevTime  15
+    SubmarketNames  [ "Compression"; "Speed"; "Security" ]
+    Category        "Utility"
+    Unlock          1989
+    OSSupport       True
+    NameGenerator   "Archiver"
+    Features
+    [
+        {
+        Name        "Algorithms"
+        Spec        System
+        Description "Math."
+        DevTime     5
+        CodeArt     1
+        Submarkets  [ 1; 1; 0 ]
+        Features
+        [
+            {
+            Name        "LZ77 Compression"
+            Description "ZIP base."
+            DevTime     5
+            CodeAmount  150
+            ArtAmount   5
+            CodeArt     0.97
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1989
+            }
+            {
+            Name        "Self-Extracting"
+            Description "SFX."
+            DevTime     3
+            CodeAmount  90
+            ArtAmount   5
+            CodeArt     0.95
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1992
+            }
+            {
+            Name        "Multi-Volume"
+            Description "Split files."
+            DevTime     5
+            CodeAmount  110
+            ArtAmount   5
+            CodeArt     0.96
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1995
+            }
+            {
+            Name        "AES-256 Encrypt"
+            Description "Secure."
+            DevTime     7
+            CodeAmount  160
+            ArtAmount   10
+            CodeArt     0.94
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2002
+            }
+            {
+            Name        "AI Compression"
+            Description "Pattern AI."
+            DevTime     7
+            CodeAmount  300
+            ArtAmount   15
+            CodeArt     0.95
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2025
+            }
+            {
+            Name        "Space-Time Fold"
+            Description "Quantum zip."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   30
+            CodeArt     0.94
+            Level       3
+            Submarkets  [ 1; 1; 0 ]
+            Unlock      2035
+            }
+        ]
+        }
+        {
+        Name        "Interface"
+        Spec        2D
+        Optional    True
+        Description "GUI."
+        DevTime     3
+        CodeArt     0.6
+        Submarkets  [ 0; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Drag & Drop"
+            Description "Easy move."
+            DevTime     3
+            CodeAmount  80
+            ArtAmount   30
+            CodeArt     0.73
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1995
+            }
+            {
+            Name        "Archive Preview"
+            Description "Peek inside."
+            DevTime     5
+            CodeAmount  110
+            ArtAmount   25
+            CodeArt     0.81
+            Level       2
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2000
+            }
+        ]
+        }
+        {
+        Name        "Cloud"
+        Spec        Network
+        Optional    True
+        Description "Web sync."
+        DevTime     4
+        CodeArt     1
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Cloud Extract"
+            Description "Unzip to web."
+            DevTime     5
+            CodeAmount  140
+            ArtAmount   15
+            CodeArt     0.9
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2015
+            }
+        ]
+        }
+    ]
+}

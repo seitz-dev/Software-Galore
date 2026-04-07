@@ -1,0 +1,63 @@
+SoftwareType
+{
+    Name            "POS"
+    Description     "Registers."
+    Random          0.3
+    Popularity      0.8
+    Retention       60
+    Iterative       1
+    NameGenerator   "POSSoftware"
+    IdealPrice      300
+    OptimalDevTime  35
+    SubmarketNames  [ "Speed"; "Reliability"; "Retail AI" ]
+    Category        "Work"
+    Unlock          1985
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Retail Logic"
+        Spec        System
+        Description "Transactions."
+        DevTime     7
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Transaction Logic"
+            Description "Base."
+            DevTime     3
+            CodeAmount  130
+            ArtAmount   20
+            CodeArt     0.87
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1985
+            }
+            {
+            Name        "Cashierless AI"
+            Description "Cameras."
+            DevTime     7
+            CodeAmount  320
+            ArtAmount   50
+            CodeArt     0.86
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2025
+            }
+            {
+            Name        "Retinal Payment"
+            Description "Blink."
+            DevTime     7
+            CodeAmount  410
+            ArtAmount   30
+            CodeArt     0.93
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2033
+            }
+        ]
+        }
+    ]
+}

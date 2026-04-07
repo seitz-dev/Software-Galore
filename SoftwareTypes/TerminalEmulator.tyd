@@ -1,0 +1,165 @@
+SoftwareType
+{
+    Name            "Terminal Emulator"
+    Description     "Mainframe access."
+    Random          0.3
+    Popularity      0.6
+    Retention       24
+    Iterative       0.8
+    IdealPrice      20
+    OptimalDevTime  15
+    SubmarketNames  [ "Connectivity"; "Security"; "Usability" ]
+    Category        "Utility"
+    Unlock          1980
+    OSSupport       True
+    NameGenerator   "TerminalEmulator"
+    Features
+    [
+        {
+        Name        "Local Logic"
+        Spec        System
+        Description "Features."
+        DevTime     4
+        CodeArt     1
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "Macro Scripting"
+            Description "Auto typing."
+            DevTime     5
+            CodeAmount  120
+            ArtAmount   10
+            CodeArt     0.92
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      1985
+            }
+            {
+            Name        "Multi-Session"
+            Description "Concurrent."
+            DevTime     5
+            CodeAmount  140
+            ArtAmount   15
+            CodeArt     0.9
+            Level       2
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      1990
+            }
+        ]
+        }
+        {
+        Name        "Protocols"
+        Spec        Network
+        Optional    True
+        Description "Connections."
+        DevTime     4
+        CodeArt     1
+        Submarkets  [ 1; 1; 0 ]
+        Features
+        [
+            {
+            Name        "Serial Connection"
+            Description "COM ports."
+            DevTime     3
+            CodeAmount  80
+            ArtAmount   5
+            CodeArt     0.94
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1980
+            }
+            {
+            Name        "Telnet Protocol"
+            Description "TCP/IP."
+            DevTime     5
+            CodeAmount  110
+            ArtAmount   10
+            CodeArt     0.92
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1983
+            }
+            {
+            Name        "SSH Encryption"
+            Description "Secure."
+            DevTime     7
+            CodeAmount  160
+            ArtAmount   10
+            CodeArt     0.94
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1995
+            }
+            {
+            Name        "IPv6 Support"
+            Description "Next-gen IP."
+            DevTime     5
+            CodeAmount  130
+            ArtAmount   5
+            CodeArt     0.96
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2000
+            }
+        ]
+        }
+        {
+        Name        "Display"
+        Spec        2D
+        Optional    True
+        Description "Visuals."
+        DevTime     3
+        CodeArt     0.6
+        Submarkets  [ 0; 1; 1 ]
+        Features
+        [
+            {
+            Name        "ANSI Colors"
+            Description "16 colors."
+            DevTime     3
+            CodeAmount  60
+            ArtAmount   30
+            CodeArt     0.67
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      1982
+            }
+            {
+            Name        "Tabbed Interface"
+            Description "Tabs."
+            DevTime     5
+            CodeAmount  90
+            ArtAmount   25
+            CodeArt     0.78
+            Level       2
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2002
+            }
+        ]
+        }
+        {
+        Name        "Cyberspace"
+        Spec        3D
+        Optional    True
+        Description "Matrix."
+        DevTime     5
+        CodeArt     0.1
+        Submarkets  [ 0; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Neuromancer UI"
+            Description "VR terminal."
+            DevTime     7
+            CodeAmount  350
+            ArtAmount   150
+            CodeArt     0.7
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2030
+            }
+        ]
+        }
+    ]
+}

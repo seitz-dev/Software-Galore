@@ -1,0 +1,75 @@
+SoftwareType
+{
+    Name            "Dating"
+    Description     "Romance."
+    Random          0.3
+    Popularity      0.9
+    Retention       6
+    Iterative       0.8
+    NameGenerator   "DatingApp"
+    IdealPrice      50
+    OptimalDevTime  25
+    SubmarketNames  [ "Match rate"; "Ease"; "Sensory" ]
+    Category        "Internet"
+    Unlock          2010
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Algorithm"
+        Spec        System
+        Description "Pairing logic."
+        DevTime     6
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Matching AI"
+            Description "Pairs."
+            DevTime     5
+            CodeAmount  190
+            ArtAmount   5
+            CodeArt     0.97
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2010
+            }
+            {
+            Name        "AI Match Sim"
+            Description "10k dates."
+            DevTime     7
+            CodeAmount  320
+            ArtAmount   30
+            CodeArt     0.91
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2027
+            }
+        ]
+        }
+        {
+        Name        "Virtual Date"
+        Spec        3D
+        Optional    True
+        Description "Sensory."
+        DevTime     7
+        CodeArt     0.1
+        Submarkets  [ 0; 0; 1 ]
+        Features
+        [
+            {
+            Name        "VR Sensory Dates"
+            Description "Haptics."
+            DevTime     7
+            CodeAmount  480
+            ArtAmount   130
+            CodeArt     0.79
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2034
+            }
+        ]
+        }
+    ]
+}

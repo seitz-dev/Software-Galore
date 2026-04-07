@@ -1,0 +1,86 @@
+SoftwareType
+{
+    Name            "Note Taking"
+    Description     "Digital brain."
+    Random          0.3
+    Popularity      0.7
+    Retention       60
+    Iterative       1
+    NameGenerator   "NoteTaking"
+    IdealPrice      20
+    OptimalDevTime  25
+    SubmarketNames  [ "Organization"; "Speed"; "Search" ]
+    Category        "Work"
+    Unlock          2002
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Editor"
+        Spec        System
+        Description "Text engine."
+        DevTime     5
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Rich Text Notes"
+            Description "Format."
+            DevTime     3
+            CodeAmount  90
+            ArtAmount   20
+            CodeArt     0.82
+            Level       1
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2002
+            }
+            {
+            Name        "AI Summarizer"
+            Description "Condense."
+            DevTime     7
+            CodeAmount  260
+            ArtAmount   15
+            CodeArt     0.95
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2023
+            }
+            {
+            Name        "Memory Transcription"
+            Description "Visual cortex."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   50
+            CodeArt     0.9
+            Level       3
+            Submarkets  [ 1; 1; 1 ]
+            Unlock      2034
+            }
+        ]
+        }
+        {
+        Name        "Sync"
+        Spec        Network
+        Optional    True
+        Description "Cloud link."
+        DevTime     4
+        CodeArt     1
+        Submarkets  [ 1; 0; 0 ]
+        Features
+        [
+            {
+            Name        "Cloud Sync"
+            Description "Sync."
+            DevTime     5
+            CodeAmount  130
+            ArtAmount   10
+            CodeArt     0.93
+            Level       2
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2006
+            }
+        ]
+        }
+    ]
+}

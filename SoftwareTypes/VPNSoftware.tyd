@@ -1,0 +1,86 @@
+SoftwareType
+{
+    Name            "VPN"
+    Description     "Secure tunnel."
+    Random          0.3
+    Popularity      0.85
+    Retention       12
+    Iterative       0.9
+    NameGenerator   "VPNSoftware"
+    IdealPrice      50
+    OptimalDevTime  25
+    SubmarketNames  [ "Security"; "Speed"; "Anonymity" ]
+    Category        "Utility"
+    Unlock          1996
+    OSSupport       True
+    Features
+    [
+        {
+        Name        "Tunneling"
+        Spec        Network
+        Description "Relay logic."
+        DevTime     6
+        CodeArt     1
+        Submarkets  [ 1; 1; 1 ]
+        Features
+        [
+            {
+            Name        "Encrypted Tunnel"
+            Description "Base."
+            DevTime     3
+            CodeAmount  160
+            ArtAmount   15
+            CodeArt     0.91
+            Level       1
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      1996
+            }
+            {
+            Name        "Split Tunneling"
+            Description "Per-app."
+            DevTime     7
+            CodeAmount  150
+            ArtAmount   10
+            CodeArt     0.94
+            Level       3
+            Submarkets  [ 0; 1; 0 ]
+            Unlock      2010
+            }
+            {
+            Name        "Decentralized Onion"
+            Description "Multi-node."
+            DevTime     7
+            CodeAmount  300
+            ArtAmount   20
+            CodeArt     0.94
+            Level       3
+            Submarkets  [ 0; 0; 1 ]
+            Unlock      2026
+            }
+        ]
+        }
+        {
+        Name        "Encryption"
+        Spec        System
+        Optional    True
+        Description "Math logic."
+        DevTime     5
+        CodeArt     1
+        Submarkets  [ 1; 0; 0 ]
+        Features
+        [
+            {
+            Name        "Quantum Encryption"
+            Description "Physics lock."
+            DevTime     7
+            CodeAmount  450
+            ArtAmount   25
+            CodeArt     0.95
+            Level       3
+            Submarkets  [ 1; 0; 0 ]
+            Unlock      2034
+            }
+        ]
+        }
+    ]
+}
