@@ -1,12 +1,17 @@
-# Software Galore
 
-[Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3702052349)
+# Software Galore
 
 **Software Galore** is a large, comprehensive data expansion mod for *Software Inc. (Beta 1.8)* that adds 30 entirely new software types into the game. 
 
 Tired of building the same Operating Systems, Games, and 2D Editors? Software Galore expands the technology tree with a hyper-detailed journey from the early days of 1980s mainframe terminals to speculative 2035 sci-fi tech like quantum computing and neural interfaces.
 
 This mod aims to bring back that feeling of old Software Inc where there were plenty of expansion mods, all adding to the novelty and the complexity of the game.
+
+<div align="center">
+  <img width="128" height="128" alt="thumbnail" src="https://github.com/user-attachments/assets/84f787f5-dfd2-44b6-bea3-44bb6414c5ce" />
+  
+  [Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3702052349)
+</div>
 
 ## 🚀 Features
 
